@@ -27,10 +27,10 @@ function DayCard({
               alt={description}
             />
             <p>
-              <strong>High:</strong> {printFixedDigits(high)}°
+              <strong>Abel:</strong> {printFixedDigits(high)}°
             </p>
             <p>
-              <strong>Low:</strong> {printFixedDigits(low)}°
+              <strong>Richard:</strong> {printFixedDigits(low)}°
             </p>
             <p>
               <strong>Precip:</strong> {precip}%
