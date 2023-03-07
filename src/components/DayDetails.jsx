@@ -31,21 +31,21 @@ function DayDetails({
         <em>{description}</em>
       </p>
       <p>
-        <strong>High:</strong> {printFixedDigits(high)}° |{' '}
-        <strong>Feels Like:</strong> {printFixedDigits(appHigh)}°
+        <strong>Highest:</strong> {printFixedDigits(high)}° |{' '}
+        <strong>Feels Like The Devil:</strong> {printFixedDigits(appHigh)}°
       </p>
       <p>
         <strong>Low:</strong> {printFixedDigits(low)}° |{' '}
-        <strong>Feels Like:</strong> {printFixedDigits(appLow)}°
+        <strong>Feels Like Santa Clause:</strong> {printFixedDigits(appLow)}°
       </p>
       <p>
-        <strong>Likelihood of Precipitation:</strong> {precip}% |{' '}
-        <strong>Relative Humidity:</strong> {humidity}%
+        <strong>Likelihood of Something:</strong> {precip}% |{' '}
+        <strong>Relative Human:</strong> {humidity}%
       </p>
       <p>
         <strong>Wind Speed:</strong>{' '}
         {printFixedDigits(windSpeed * 2.237, 2)}
-        mph | <strong>Wind Direction:</strong> {titleCase(windDir)}
+        mph | <strong>What's Wind Direction:</strong> {titleCase(windDir)}
       </p>
     </DetailsWrapper>
   );
