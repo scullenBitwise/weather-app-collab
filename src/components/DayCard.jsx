@@ -27,6 +27,8 @@ function DayCard({
               alt={description}
             />
             <p>
+              <h2>Important Weather App</h2>
+              <strong>High:</strong> {printFixedDigits(high)}°
               <strong>Abel:</strong> {printFixedDigits(high)}°
             </p>
             <p>
