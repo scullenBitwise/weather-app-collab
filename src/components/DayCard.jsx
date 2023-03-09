@@ -27,7 +27,6 @@ function DayCard({
               alt={description}
             />
             <p>
-              <h2 >The rain is raining in Denver</h2>
               <strong>High:</strong> {printFixedDigits(high)}°
               <strong>Abel:</strong> {printFixedDigits(high)}°
             </p>
